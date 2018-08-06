@@ -76,6 +76,24 @@ z-index:101;
 top:.9em;
 width:2em;
 }
+.price{
+font-family: PingFangSC-Semibold;
+font-size: 32px;
+color: #000000;
+position:absolute;
+top:19.8%;
+left:53.3%;
+font-size:1.6em;
+}
+.p-name{
+	font-family: Raleway-Bold;
+font-size: 32px;
+color: #000000;
+position:absolute;
+top:25%;
+left:53.3%;
+font-size:1.6em;
+}
 
 @media screen and (max-width: 1000px){ 
 .navi2{
