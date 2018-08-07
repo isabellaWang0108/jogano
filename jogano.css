@@ -105,6 +105,9 @@ font-size:.7em;
 }
 
 @media screen and (max-width: 1000px){ 
+.navigation{
+	display:none;
+}	
 .navi2{
 	width:100%;
 	height:4em;
