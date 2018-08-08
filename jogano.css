@@ -98,16 +98,43 @@ font-size:1.6em;
 .alchol{
 font-family: Lato-Regular;
 color: #000000;
-position:absolute;
-top:27.5%;
-left:82%;
-font-size:.7em;
+position:relative;
+top:-1.4em;
+left:23em;
+font-size:.6em;
 }
+
 .navi2 {
 	display:none;
 }
+.photo{
+	position:absolute;
+	top:7em;
+	left:18%;
+	width:12em;
+}
+.grape{
+	position:absolute;
+	top:15em;
+	left:53.5%;
+}
+.icon{
+   width:3em;
+}
+.grapenum{
+	position:absolute;
+	top:.1em;
+	left:3em;
+}
+.grapecompo{
+	position:absolute;
+	top:.1em;
+	left:6em;
+}
 
-@media screen and (max-width: 1000px){ 
+
+
+@media screen and (max-width: 900px){ 
 .navi{
 	display:none;
 }	
@@ -121,7 +148,7 @@ font-size:.7em;
 	width:100%;
 	height:4em;
 	position: fixed;
-	top:4em;
+	top:8em;
 	z-index:100;
 }
 .products{
