@@ -11,7 +11,7 @@
 	height:4em;
 	position: fixed;
 	top:.1px;
-	z-index:100;
+	z-index:105;
 	background-color: white;
 }
 .navi:hover{
@@ -73,17 +73,25 @@ top:1.9em;
 .logo{
 position:fixed;
 left:4.8%;
-z-index:101;
+z-index:300;
 top:.9em;
 width:10.2em;
+}
+.backk{
+	position:absolute;
+	left:2%;
+	width: 4em;
+	color:black;
+	top:50%;
+	z-index: 300;
 }
 .price{
 font-family: PingFangSC-Semibold;
 font-size: 32px;
 color: #000000;
 position:absolute;
-top:19.8%;
-left:53.3%;
+top:22%;
+left:45%;
 font-size:1.6em;
 }
 .p-name{
@@ -91,15 +99,15 @@ font-size:1.6em;
 font-size: 32px;
 color: rgb(160,30,30);
 position:absolute;
-top:26%;
-left:53.3%;
+top:28%;
+left:45%;
 font-size:1.6em;
 }
 .alchol{
 font-family: Lato-Regular;
 color: #000000;
 position:relative;
-top:-1.4em;
+top:-1.3em;
 left:23em;
 font-size:.6em;
 }
@@ -108,33 +116,102 @@ font-size:.6em;
 	display:none;
 }
 .photo{
-	position:absolute;
+	position:relative;
 	top:7em;
-	left:18%;
+	left:14%;
 	width:12em;
+}
+.tobuy{
+position: absolute;
+top:40em;
+left:14%;
+background-color: black;
+
+font-family:Raleway-Regular;
+font-size: 1em;
+color:rgb(160,30,30);
+z-index:200;
+width:8em;
+height:4em;
 }
 .grape{
 	position:absolute;
 	top:15em;
-	left:53.5%;
+	left:45%;
+	width:46%;
+	height:100%;
+	letter-spacing: .1em;
 }
 .icon{
    width:3em;
+   position: relative;
+   top: 1em;
 }
+
 .grapenum{
 	position:absolute;
-	top:.1em;
+	top:.8em;
 	left:3em;
+font-family: Lato-Light;
+font-size: 1.2em;
+color: #000000;
+line-height: 45px;
 }
 .grapecompo{
 	position:absolute;
-	top:.1em;
+	top:.8em;
 	left:6em;
+	font-family: Raleway-Regular;
+	font-size: 1.2em;
+	color: #000000;
+	line-height: 45px;
 }
 
 
+.region-description{
+	position:relative;
+	top:-.7em;
+	left:-3em;
+	font-family: Raleway-Regular;
+	color: #000000;
 
-@media screen and (max-width: 900px){ 
+}
+
+.pair-description{
+	position:relative;
+	top:-3.2em;
+	left:-3em;
+	font-family: Raleway-Regular;
+	color: #000000;
+
+}
+h2{
+	font-family: Raleway-Bold;
+}
+
+.notes{
+	position:relative;
+	font-family: Raleway-Regular;
+	color:black;
+	font-size: .9em;
+	top:2em;
+	width:100%;
+	line-height: 1.6em;
+}
+
+
+@media screen and (max-width: 800px ){ 
+
+.navigationblock{
+	width:100%;
+	height:16em;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:200;
+	background-color: white;
+}
+
 .navi{
 	display:none;
 }	
@@ -146,10 +223,11 @@ font-size:.6em;
 }
 .navi2{
 	width:100%;
-	height:4em;
+	height:18em;
 	position: fixed;
-	top:8em;
+	top:0;
 	z-index:100;
+	background-color: white;
 }
 .products{
 font-family: Raleway-Bold;
@@ -157,9 +235,9 @@ font-size: 1.3em;
 color: black;
 text-decoration: none;
 position:fixed;
-left:5%;
+left:20%;
 z-index:101;
-top:.9em;
+top:5em;
 }
 .events{
 font-family: Raleway-Bold;
@@ -167,9 +245,9 @@ font-size: 1.3em;
 color: black;
 text-decoration: none;
 position:fixed;
-left:34%;
+left:20%;
 z-index:101;
-top:.9em;
+top:10em;
 }
 .about{
 font-family: Raleway-Bold;
@@ -177,9 +255,9 @@ font-size: 1.3em;
 color: black;
 text-decoration: none;
 position:fixed;
-left:58%;
+left:20%;
 z-index:101;
-top:.9em;
+top:15em;
 }
 .lang2{
 	font-family: Raleway-Light;
@@ -189,24 +267,27 @@ text-decoration: none;
 position:fixed;
 z-index:101;
 }
+.lang2:hover{
+	color:rgb(160,30,30);
+	}
 .en{
 left:82%;
-top:2em;
+top:8.4em;
 }
 .gang{
 	left:87%;
-	top:1.9em;
+	top:8.4em;
 }
 .cn{
 	left:89%;
-	top:1.8em;
+	top:8.3em;
 }
 .naviline2{
 	width:100%;
 	height:2px;
 	position: fixed;
-	top:4em;
-	z-index:100;
+	top:25em;
+	z-index:200;
 	background-color:rgb(160,30,30);
 }
 .hamburger{
@@ -227,9 +308,80 @@ top:2em;
 .cross:hover{
 	transform: scale(1.2);
 }
+.p-name{
+	font-family: Raleway-Bold;
+font-size: 32px;
+color: rgb(160,30,30);
+position:absolute;
+top:28%;
+left:20%;
+font-size:1.6em;
+width:80%;
+}
+.alchol{
+font-family: Lato-Regular;
+color: #000000;
+position:relative;
+top:-1.6em;
+left:30em;
+font-size:.4em;
+}
 
+.price{
+font-family: Lato;
+font-size: 32px;
+color: #000000;
+position:absolute;
+top:22%;
+left:20%;
+font-size:1.4em;
+}
+.photo{
+	position:relative;
+	top:15em;
+	left:35%; 
+	width:18vw;
+	min-width: 8em;
+}
+.grape{
+	position:absolute;
+	top:50em;
+	left:15%;
+	width:85%;
+	height:100%;
+	letter-spacing: .1em;
+	font-size: .9em;
+}
 }
 
 
+@media screen and (max-width: 480px ){
+.p-name{
+	font-family: Raleway-Bold;
+font-size: 32px;
+color: rgb(160,30,30);
+position:absolute;
+top:28%;
+left:15%;
+font-size:1.4em;
 
+}
+.alchol{
+font-family: Lato-Regular;
+color: #000000;
+position:relative;
+top:-1.6em;
+left:30em;
+font-size:.4em;
+}
 
+.price{
+font-family: Lato;
+font-size: 32px;
+color: #000000;
+position:absolute;
+top:22%;
+left:15%;
+font-size:1.4em;
+}
+}
