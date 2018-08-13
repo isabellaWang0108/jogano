@@ -95,11 +95,98 @@ h2{
 	font-family: Raleway-Bold;
 }
 
-
-
 .navi2{
 	display: none;
 }
+.box{
+	left:2%;
+	width:95%;
+	top:2em;
+	display:inline-block;
+	position:absolute;
+	alignment-baseline: hanging;
+}
+.items:hover{
+	background-color:rgb(160,30,30) ;
+	opacity: .7;
+	z-index:200;
+}
+.items{
+	width:15em;
+	height: 25em;
+	border: solid;
+	border-color: rgb(160,30,30);
+	border-width: 2px;
+	background-color: white;
+	display:inline-block;
+	left:2em;
+	margin-left: 2em;
+	margin-top:4em;
+	position: relative;
+	alignment-baseline: auto;
+	text-decoration: none;
+
+}
+.image{
+	padding-left: 30%;
+	padding-top: 20%;
+	width:40%;
+	position: relative;
+}
+.redwine{
+	position: absolute;
+	top:.6em;
+	left:.7em;
+	  height: .8em;
+  	width: .8em;
+  	background-color:rgb(160,30,30);
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.whitewine{
+	position: absolute;
+	top:.6em;
+	left:.7em;
+	  height: .8em;
+  	width: .8em;
+  	background-color:#FAE6A0;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.pricee{
+	font-family: Lato-Regular;
+	position: absolute;
+	top:.1em;
+	left:2em;
+	text-decoration: none;
+	color:black;
+	font-size: 1.4em;
+	letter-spacing: .1em;
+
+}
+h1{
+	position:absolute;
+	font-family: Raleway-Bold;
+	font-size:1.2em;
+	color:black;
+	left:0%;
+	width:95%;
+	top:80%;
+	text-align: center;
+}
+h3{
+	top:3.5em;
+	position:relative;
+	font-size:1em;
+	left:0;
+	width:95%;
+	opacity: 0.5;
+	font-family: Raleway-Regular;
+	color: #A01E1E;
+	padding-left: 1em;
+	display: inline;
+}
+
 @media screen and (max-width: 800px ){ 
 
 .navigationblock{
