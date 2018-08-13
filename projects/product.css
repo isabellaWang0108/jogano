@@ -1,0 +1,675 @@
+
+
+.naviline{
+	width:100%;
+	height:2px;
+	position: fixed;
+	top:4em;
+	z-index:100;
+	background-color:rgb(160,30,30);
+	left:0;
+}
+.navigation{
+	width:100%;
+	height:4em;
+	position: fixed;
+	top:.1px;
+	z-index:105;
+	background-color: white;
+	left:0;
+}
+.navi:hover{
+	transform: scale(1.2);
+	color:rgb(160,30,30);
+}
+.lang:hover{color:rgb(160,30,30);
+	}
+.products{
+font-family: Raleway-Bold;
+font-size: 1.4em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:36.5%;
+z-index:101;
+top:.9em;
+}
+.events{
+font-family: Raleway-Bold;
+font-size: 1.4em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:54.5%;
+z-index:101;
+top:.9em;
+}
+.about{
+font-family: Raleway-Bold;
+font-size: 1.4em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:70%;
+z-index:101;
+top:.9em;
+}
+.lang{
+	font-family: Raleway-Light;
+font-size: .8em;
+color: black;
+text-decoration: none;
+position:fixed;
+z-index:101;
+}
+.en{
+left:91%;
+top:1.9em;
+}
+.gang{
+	left:93.5%;
+	top:1.8em;
+}
+.cn{
+	left:94.5%;
+	top:1.7em;
+}
+.logo{
+position:fixed;
+left:4.8%;
+z-index:300;
+top:.9em;
+width:10.2em;
+}
+.backk{
+	position:fixed;
+	left:4%;
+	width: 4em;
+	color:rgb(160,30,30);
+	top:15%;
+	z-index: 300;
+	font-size: 3em;
+	text-decoration: none;
+}
+.backk:hover{
+	transform: scale(1.2);
+}
+.price{
+font-family: Lato;
+font-size: 32px;
+color: #000000;
+position:absolute;
+top:22%;
+left:45%;
+width:40%;
+font-size:1.6em;
+}
+.p-name{
+	font-family: Raleway-Bold;
+font-size: 32px;
+color: rgb(160,30,30);
+position:absolute;
+top:28%;
+left:45%;
+font-size:1.6em;
+width:40%;
+}
+.alchol{
+font-family: Lato-Regular;
+color: #000000;
+position:relative;
+top:-1.3em;
+left:23em;
+font-size:.6em;
+width:10%;
+}
+
+.navi2 {
+	display:none;
+}
+.photo{
+	position:relative;
+	top:7em;
+	left:14%;
+	width:12em;
+}
+.tobuy{
+position: absolute;
+top:40em;
+left:35%;
+background-color: black;
+border: 2px;
+border-color: rgb(160,30,30);
+font-family:Raleway-Bold;
+font-size: 1em;
+color:rgb(160,30,30);
+z-index:200;
+text-align: center;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 2em;
+padding-right: 2em;
+}
+.grape{
+	position:absolute;
+	top:15em;
+	left:45%;
+	width:46%;
+	height:100%;
+	letter-spacing: .1em;
+}
+.icon{
+   width:3em;
+   position: relative;
+   top: 1em;
+}
+
+.grapenum{
+	position:absolute;
+	top:.8em;
+	left:3em;
+font-family: Lato-Light;
+font-size: 1.2em;
+color: #000000;
+line-height: 45px;
+}
+.grapecompo{
+	position:absolute;
+	top:.8em;
+	left:6em;
+	font-family: Raleway-Regular;
+	font-size: 1.2em;
+	color: #000000;
+	line-height: 45px;
+}
+
+
+.region-description{
+	position:relative;
+	top:-.7em;
+	left:-3em;
+	font-family: Raleway-Regular;
+	color: #000000;
+
+}
+
+.pair-description{
+	position:relative;
+	top:-3.2em;
+	left:-3em;
+	font-family: Raleway-Regular;
+	color: #000000;
+
+}
+h2{
+	font-family: Raleway-Bold;
+}
+
+.notes{
+	position:relative;
+	font-family: Raleway-Regular;
+	color:black;
+	font-size: .9em;
+	top:2em;
+	width:100%;
+	line-height: 1.6em;
+}
+.tobuy{
+position: absolute;
+top:39em;
+left:16%;
+background-color: white;
+border-width: 2px;
+border: solid;
+border-color: rgb(160,30,30);
+font-family:Raleway-Bold;
+font-size: 1em;
+color:rgb(160,30,30);
+z-index:200;
+text-align: center;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 2em;
+padding-right: 2em;
+text-decoration: none;
+}
+.grey{
+position: absolute;
+top:39em;
+left:16%;
+background-color: white;
+border-width: 2px;
+border: solid;
+border-color: grey;
+font-family:Raleway-Bold;
+font-size: 1em;
+color:grey;
+z-index:200;
+text-align: center;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 2em;
+padding-right: 2em;
+text-decoration: none;
+}
+.tobuy:hover{
+	background-color:rgb(160,30,30);
+	color: white;
+}
+
+.navi2{
+	display: none;
+}
+@media screen and (max-width: 800px ){ 
+
+.navigationblock{
+	width:100%;
+	height:2em;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:200;
+	background-color: white;
+}
+
+.navi{
+	display:none;
+}	
+.lang{
+	display:none;
+}
+.navigation{
+	display:none;
+}
+.navi2{
+	width:100%;
+	height:18em;
+	position: fixed;
+	top:0;
+	z-index:100;
+	background-color: white;
+}
+.products{
+font-family: Raleway-Bold;
+font-size: 1.3em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:20%;
+z-index:101;
+top:5em;
+}
+.events{
+font-family: Raleway-Bold;
+font-size: 1.3em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:20%;
+z-index:101;
+top:10em;
+}
+.about{
+font-family: Raleway-Bold;
+font-size: 1.3em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:20%;
+z-index:101;
+top:15em;
+}
+.lang2{
+font-size: .8em;
+color: black;
+text-decoration: none;
+position:fixed;
+z-index:101;
+}
+.lang2:hover{
+	color:rgb(160,30,30);
+	}
+.en{
+left:82%;
+top:8.4em;
+}
+.gang{
+	left:87%;
+	top:8.4em;
+}
+.cn{
+	left:89%;
+	top:8.3em;
+}
+.naviline2{
+	width:100%;
+	height:2px;
+	position: fixed;
+	top:25em;
+	z-index:200;
+	background-color:rgb(160,30,30);
+	left:0;
+}
+.hamburger{
+    position:fixed;
+    top:.4em;
+    right:5%;
+    font-size:1.8em;
+}
+.hamburger:hover{
+	transform: scale(1.2);
+}
+.cross{
+	 position:fixed;
+    top:.2em;
+    right:5%;
+    font-size:4em;
+    z-index:400;
+}
+.cross:hover{
+	transform: scale(1.2);
+}
+.p-name{
+	font-family: Raleway-Bold;
+font-size: 32px;
+color: rgb(160,30,30);
+position:absolute;
+top:28%;
+left:20%;
+font-size:1.6em;
+width:80%;
+}
+.alchol{
+font-family: Lato-Regular;
+color: #000000;
+position:relative;
+top:-1.6em;
+left:30em;
+font-size:.4em;
+}
+
+.price{
+font-family: Lato;
+font-size: 32px;
+color: #000000;
+position:absolute;
+top:22%;
+left:20%;
+font-size:1.4em;
+}
+.photo{
+	position:relative;
+	top:15em;
+	left:35%; 
+	width:18vw;
+	min-width: 8em;
+}
+.grape{
+	position:absolute;
+	top:50em;
+	left:15%;
+	width:85%;
+	height:100%;
+	letter-spacing: .1em;
+	font-size: .9em;
+}
+.tobuy{
+position: absolute;
+top:39em;
+left:33%;
+background-color: white;
+border-width: 2px;
+border: solid;
+border-color: rgb(160,30,30);
+font-family:Raleway-Bold;
+font-size: 1em;
+color:rgb(160,30,30);
+z-index:200;
+text-align: center;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 2em;
+padding-right: 2em;
+text-decoration: none;
+}
+.grey{
+border-color: grey;
+color:grey;
+
+}
+.tobuy:hover{
+	background-color:rgb(160,30,30);
+	color: white;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 480px ){
+.p-name{
+	font-family: Raleway-Bold;
+font-size: 32px;
+color: rgb(160,30,30);
+position:absolute;
+top:28%;
+left:15%;
+font-size:1.3em;
+width:80%;
+
+}
+.alchol{
+font-family: Lato-Regular;
+color: #000000;
+position:relative;
+top:-1.6em;
+left:90%;
+width:10%;
+}
+.icon{
+width:2.2em;
+}
+.price{
+font-family: Lato;
+font-size: 32px;
+color: #000000;
+position:absolute;
+top:22%;
+left:15%;
+font-size:1.4em;
+width:30%;
+}
+.tobuy{
+position: absolute;
+top:37em;
+left:24%;
+width:25%;
+background-color: white;
+border-width: 2px;
+border: solid;
+border-color: rgb(160,30,30);
+font-family:Raleway-Bold;
+font-size: 1em;
+color:rgb(160,30,30);
+z-index:200;
+text-align: center;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 2em;
+padding-right: 2em;
+text-decoration: none;
+}
+.grey{
+border: solid;
+border-color: grey;
+font-family:Raleway-Bold;
+color:grey;
+text-decoration: none;
+}
+.grape{
+	position:absolute;
+	top:50em;
+	left:12%;
+	width:85%;
+	height:100%;
+	letter-spacing: .1em;
+	font-size: .9em;
+}
+.backk{
+	font-size: 2em;
+	left:2%;
+	width:10%;
+	top:10%;
+
+}
+
+.photo{
+	position:relative;
+	top:15em;
+	left:30%; 
+	width:17vw;
+	min-width: 8em;
+}
+
+.grapenum{
+	position:absolute;
+	top:.8em;
+	left:3em;
+font-family: Lato-Light;
+font-size: 1.1em;
+color: #000000;
+line-height: 45px;
+}
+.grapecompo{
+	position:absolute;
+	top:.8em;
+	left:30%;
+	font-family: Raleway-Regular;
+	font-size: 1.1em;
+	color: #000000;
+	line-height: 45px;
+	width:80%;
+}
+
+
+.region-description{
+	position:relative;
+	top:-.7em;
+	left:-3em;
+	font-family: Raleway-Regular;
+	color: #000000;
+    width:70%;
+}
+
+.pair-description{
+	position:relative;
+	top:-3.2em;
+	left:-10;
+	font-family: Raleway-Regular;
+	color: #000000;
+	width:100%;
+
+}
+.notes{
+	position:relative;
+	font-family: Raleway-Regular;
+	color:black;
+	font-size: .9em;
+	top:2em;
+	width:100%;
+	left:0;
+	line-height: 1.6em;
+}
+.logo{
+position:fixed;
+left:4.8%;
+z-index:300;
+top:.9em;
+width:40%;
+}
+
+
+.navigation{
+	display: none;
+}
+
+.navi2{
+	width:100%;
+	height:18em;
+	position: fixed;
+	top:0;
+	z-index:100;
+	background-color: white;
+}
+.products{
+font-family: Raleway-Bold;
+font-size: 2em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:20%;
+z-index:101;
+top:20%;
+}
+.events{
+font-family: Raleway-Bold;
+font-size: 2em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:20%;
+z-index:101;
+top:32%;
+}
+.about{
+font-family: Raleway-Bold;
+font-size: 2em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:20%;
+z-index:101;
+top:44%;
+}
+.lang2{
+font-size: .8em;
+color: black;
+text-decoration: none;
+position:fixed;
+z-index:101;
+}
+.lang2:hover{
+	color:rgb(160,30,30);
+	}
+
+.en{
+font-family: Raleway-Light;
+left:82%;
+top:7.4em;
+}
+.gang{
+	left:87%;
+	top:7.4em;
+font-family: Raleway-Light;
+}
+.cn{
+	left:89%;
+	top:7.3em;
+font-family: Raleway-Light;
+}
+.cross{
+	 position:fixed;
+    top:.2em;
+    right:5%;
+    font-size:4em;
+    z-index:400;
+}
+
+
+
+
+
+
+}
