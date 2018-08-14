@@ -188,7 +188,7 @@ h3{
 }
 
 .filter{
-	position:fixed;
+	position:absolute;
 	left:0;
 	padding-left: 5%;
 	top:5.5em;
@@ -233,7 +233,24 @@ h2{ position: relative;
     display: block;
 }
 
-
+.end-address{
+	font-size: 1em;
+	font-family: Lato;
+	line-height: 2em;
+	position:relative;
+	top:15em;
+	left:8%;
+	width:25%;
+}
+.tele{
+	font-size: 1em;
+	font-family: Lato;
+	line-height: 1.5em;
+	position:relative;
+	top:9.5em;
+	left:40%;
+	width:20%;
+}
 
 @media screen and (max-width: 800px ){ 
 
