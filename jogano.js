@@ -16,6 +16,21 @@ $( ".hamburger" ).show();
 });
 });
 
+$( ".cross2" ).hide();
+$( ".filter2" ).hide();
+$( ".apply" ).click(function() {
+$( ".filter2" ).slideToggle( function() {
+$( ".apply" ).hide();
+$( ".cross2" ).show();
+});
+});
+
+$( ".cross2" ).click(function() {
+$( ".filter" ).slideToggle( function() {
+$( ".cross2" ).hide();
+$( ".apply" ).show();
+});
+});
 
 var widget = document.getElementById('filterContent');
 var checkboxes = widget.querySelectorAll('input[type="checkbox"]');
