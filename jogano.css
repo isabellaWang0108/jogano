@@ -374,14 +374,14 @@ top:8.4em;
 	display:none;
 }
 .filter2{
-	top:2em;
+	top:2.95em;
 	position:fixed;
 	left:0;
 	background-color: white;
 	z-index:200;
 		padding-left: 10%;
 	width:90%;
-	height:22em;
+	height:25em;
 	font-family: Raleway-Regular;
 	font-size: 1.4em;
     line-height: 1.6em;
@@ -548,19 +548,24 @@ font-family: Raleway-Light;
     z-index:400;
 }
 
-.box{
+
+	.box{
+	top:2em;
+	display:inline-block;
+	position:absolute;
 	left:0;
 	width:95%;
+	top:3em;
 }
 
 
 .items{
-	width:9em;
+	width:8.5em;
 	height: 16em;
-	border-width: 2px;
-	left:2em;
-	margin-left: 1em;
-	margin-top:3em;
+	border-width: 1.5px;
+	left:5%;
+	margin-left:.8vw;
+	margin-top:2em;
 
 }
 
