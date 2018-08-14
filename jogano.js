@@ -20,7 +20,7 @@ $( ".hamburger" ).show();
 $('input').click(function() {
     var category = $(this).val();
 
-    $(this).attr('checked') $ except('.' + category).hide();
+    !$(this).attr('checked') $ except('.' + category).hide();
     
 });
 
