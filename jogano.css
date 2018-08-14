@@ -210,6 +210,31 @@ h2{ position: relative;
 	font-family: Lato-Light;
 }
 
+
+[data-filter-view]:not([data-filter-view=""]) [data-filter-key],
+{
+    display: none;
+}
+
+[data-filter-view][data-filter-view~="white"] [data-filter-key~="white"],
+[data-filter-view][data-filter-view~="red"] [data-filter-key="red"],
+[data-filter-view][data-filter-view~="p0"] [data-filter-key="p0"],
+[data-filter-view][data-filter-view~="p100"] [data-filter-key="p100"],
+[data-filter-view][data-filter-view~="p200"] [data-filter-key="p200"],
+[data-filter-view][data-filter-view~="p350"] [data-filter-key="p350"],
+[data-filter-view][data-filter-view~="burgendy"] [data-filter-key="burgendy"],
+[data-filter-view][data-filter-view~="bordeaux"] [data-filter-key="bordeaux"],
+[data-filter-view][data-filter-view~="cahors"] [data-filter-key="cahors"]
+[data-filter-view][data-filter-view~="light"] [data-filter-key="light"]
+[data-filter-view][data-filter-view~="medium"] [data-filter-key="medium"]
+[data-filter-view][data-filter-view~="high"] [data-filter-key="high"]
+{
+    display: block;
+}
+
+
+
+
 @media screen and (max-width: 800px ){ 
 
 .navigationblock{

@@ -17,12 +17,27 @@ $( ".hamburger" ).show();
 });
 
 
-$('input').click(function() {
-    var category = $(this).val();
+var widget = document.getElementById('filterContent');
+var checkboxes = widget.querySelectorAll('input[type="checkbox"]');
+var checkedList = [];
+var filter = function () {
+    checkedList = [];
 
-    $(this).attr('checked') $ (except('.' + category)).hide();
-    
+    Array.prototype.forEach.call(checkboxes, function (input) {
+        if (input.checked) {
+            checkedList.push(input.value);
+        }
+    });
+
+
+    widget.setAttribute('data-filter-view', checkedList.join(' '));
+};
+
+Array.prototype.forEach.call(checkboxes, function (checkbox) {
+    checkbox.addEventListener('change', filter);
 });
+
+
 
 
 });
