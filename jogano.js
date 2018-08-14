@@ -26,7 +26,7 @@ $( ".cross2" ).show();
 });
 
 $( ".cross2" ).click(function() {
-$( ".filter" ).slideToggle( function() {
+$( ".filter2" ).slideToggle( function() {
 $( ".cross2" ).hide();
 $( ".apply" ).show();
 });

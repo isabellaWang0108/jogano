@@ -199,9 +199,7 @@ h3{
     line-height: 1.6em;
 
 }
-.filter2{
-	display:none;
-}
+
 
 h2{ position: relative;
 	font-family: Raleway-Semibold;
@@ -235,9 +233,6 @@ h2{ position: relative;
     display: block;
 }
 
-.apply{
-	display:none;
-}
 
 
 @media screen and (max-width: 800px ){ 
@@ -354,12 +349,12 @@ top:8.4em;
 
 .apply{
 	position:fixed;
-    top:.4em;
-    right:10%;
-    font-size:1em;
-    font-family: Raleway-Bold;
-    z-index:200;
-
+    top:2.1em;
+    right:15%;
+    font-size:.8em;
+    font-family: Raleway-Semibold;
+    z-index:300;
+    color:rgb(160,30,30);
 }
 .apply:hover{
 	transform: scale(1.2);
@@ -368,8 +363,9 @@ top:8.4em;
 	 position:fixed;
     top:.2em;
     right:5%;
-    font-size:4em;
+    font-size:3.5em;
     z-index:400;
+    color:rgb(160,30,30);
 }
 .cross2:hover{
 	transform: scale(1.2);
@@ -378,19 +374,26 @@ top:8.4em;
 	display:none;
 }
 .filter2{
-	top:0;
+	top:2em;
 	position:fixed;
 	left:0;
 	background-color: white;
 	z-index:200;
-		padding-left: 5%;
-	width:100%;
-	height:40em;
+		padding-left: 10%;
+	width:90%;
+	height:22em;
 	font-family: Raleway-Regular;
-	font-size: 1em;
+	font-size: 1.4em;
     line-height: 1.6em;
     color:black;
 }
+h2{ position: relative;
+	font-family: Raleway-Semibold;
+	font-size:1.1em;
+	color:black;
+	text-align: left;
+}
+
 .box{
 	left:0;
 	width:95%;
@@ -446,6 +449,13 @@ h3{
 	left:0;
 	width:95%;
 	padding-left: .8em;
+}
+.cross2{
+	 position:fixed;
+    top:1.1em;
+    right:5%;
+    font-size:4em;
+    z-index:400;
 }
 
 }
@@ -590,12 +600,32 @@ h3{
 	padding-left: .8em;
 }
 
+h2{ 
+	font-size:1em;
+}
+
 .image{
 	padding-left: 28%;
 	padding-top: 18%;
 	width:43%;
 	position: absolute;
 }
-
-
+.filter2{
+	top:3.3em;
+	position:fixed;
+	left:0;
+	background-color: white;
+	z-index:200;
+		padding-left: 10%;
+	width:90%;
+	height:25em;
+	font-family: Raleway-Regular;
+	font-size: 1.3em;
+    line-height: 1.6em;
+    color:black;
+}
+.apply{
+	right:17%;
+    font-size:.8em;
+}
 }
