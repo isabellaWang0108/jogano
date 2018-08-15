@@ -39,11 +39,11 @@
 }
 
 .event-pic{
-	width:35%;
-	position:absolute;
-	height:100%; 
-	left:25%;
+	width:30vw;
+	min-width: 20em;
+	position:absolute; 
 	top:10%;
+	right:36vw;
 	display:inline-block;
 
 }
@@ -360,11 +360,9 @@ h2{ position: relative;
 }
 .navi2{
 	width:100%;
-	height:18em;
 	position: fixed;
-	top:0;
+	padding-top:4em;
 	z-index:380;
-	background-color: white;
 	left:0;
 }
 .products{
@@ -375,7 +373,7 @@ text-decoration: none;
 position:fixed;
 left:20%;
 z-index:101;
-top:5em;
+top:2em;
 }
 .events{
 font-family: Raleway-Bold;
@@ -385,7 +383,7 @@ text-decoration: none;
 position:fixed;
 left:20%;
 z-index:101;
-top:10em;
+top:7em;
 }
 .about{
 font-family: Raleway-Bold;
@@ -395,10 +393,9 @@ text-decoration: none;
 position:fixed;
 left:20%;
 z-index:101;
-top:15em;
+top:12em;
 }
 .lang2{
-font-size: .8em;
 color: black;
 text-decoration: none;
 position:fixed;
@@ -409,23 +406,27 @@ z-index:101;
 	}
 .en{
 left:82%;
-top:8.4em;
+top:7.5em;
 }
 .gang{
 	left:87%;
-	top:8.4em;
+	top:7.5em;
 }
 .cn{
 	left:89%;
-	top:8.3em;
+	top:7.4em;
 }
 .naviline2{
 	width:100%;
-	height:2px;
+	top:4.5em;
+	height:25em;
 	position: fixed;
-	top:25em;
-	z-index:200;
-	background-color:rgb(160,30,30);
+	border-color:rgb(160,30,30);
+	border-bottom-color: rgb(160,30,30);
+	border-bottom: solid;
+	border-width:2px;
+	z-index:100;
+	background-color:white;
 	left:0;
 }
 .hamburger{
@@ -655,11 +656,12 @@ h3{
 	text-align: left;
 }
 .event-pic{
-	width:35%;
+	width:20vw;
 	position:absolute; 
-	left:50%;
-	top:10%;
+	right:10%;
+	top:15%;
 	display:inline-block;
+	min-width: 13em;
 
 }
 }
@@ -669,16 +671,16 @@ h3{
 
 .event-join{
 	font-family: Raleway-Bold;
-	font-size: 1.2em;
+	font-size: 1em;
 	color:rgb(160,30,30);
 	position:absolute;
 	left:65%;
-	top:90%;
-	width:30%;
+	top:93%;
+	width:35%;
 }
 .event-detail{
 	position:absolute;
-	top:65%;
+	top:68%;
 	left:5%;
 	width:90%;
 	font-family: Raleway-Regular;
@@ -688,7 +690,7 @@ h3{
 }
 .event-pack{
 	width:100%;
-	height:24em;
+	height:30em;
 	background-color: white;
 	left:0;
 	top:2em;
@@ -700,19 +702,21 @@ h3{
 }
 .event-title{
 	position:absolute;
-	width:40%;
+	width:90%;
 	left:4%;
-	top:-11em;
+	top:-13em;
 	height:100%;
-	font-size: 1.4em;
+	font-size: 1.7em;
+	line-height: 1.5em;
 }
 .event-pic{
-	width:35%;
 	position:absolute; 
-	left:50%;
-	top:10%;
+	right:auto;
+	left:5%;
+	top:30%;
 	display:inline-block;
-
+	min-width: 10em;
+	width:12em;
 }
 
 
@@ -729,70 +733,7 @@ width:40%;
 	display: none;
 }
 
-.navi2{
-	width:100%;
-	height:18em;
-	position: fixed;
-	top:0;
-	z-index:100;
-	background-color: white;
-}
-.products{
-font-family: Raleway-Bold;
-font-size: 2em;
-color: black;
-text-decoration: none;
-position:fixed;
-left:20%;
-z-index:101;
-top:20%;
-}
-.events{
-font-family: Raleway-Bold;
-font-size: 2em;
-color: black;
-text-decoration: none;
-position:fixed;
-left:20%;
-z-index:101;
-top:32%;
-}
-.about{
-font-family: Raleway-Bold;
-font-size: 2em;
-color: black;
-text-decoration: none;
-position:fixed;
-left:20%;
-z-index:101;
-top:44%;
-}
-.lang2{
-font-size: .8em;
-color: black;
-text-decoration: none;
-position:fixed;
-z-index:101;
-}
-.lang2:hover{
-	color:rgb(160,30,30);
-	}
 
-.en{
-font-family: Raleway-Light;
-left:82%;
-top:7.4em;
-}
-.gang{
-	left:87%;
-	top:7.4em;
-font-family: Raleway-Light;
-}
-.cn{
-	left:89%;
-	top:7.3em;
-font-family: Raleway-Light;
-}
 .cross{
 	 position:fixed;
     top:.2em;
