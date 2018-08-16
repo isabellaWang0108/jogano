@@ -1,5 +1,5 @@
 .parallax1 {
-  background: url('https://wangx733.github.io/jogano/visit.png');
+  background: url('https://wangx733.github.io/jogano/topbar.jpg');
   min-height: 400px;
 }
 .parallax2 {
@@ -16,18 +16,38 @@
   min-height: 400px;
 }
 .parallax5 {
-  background: url('https://wangx733.github.io/jogano/select.jpg');
+  background: url('https://wangx733.github.io/jogano/deliver.jpg');
   min-height: 400px;
 }
 
 
-.parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
+.parallax2, .parallax3, .parallax4 {
   position: relative;
     opacity: 0.65;
     background-attachment: fixed;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.parallax1 {
+  position: relative;
+    opacity:1;
+    background-attachment: fixed;
+    background-position: top;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 { 
+	position: relative;
+    opacity: 1;
+    top:-3vw;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+
 }
 .relative{
 	position: relative;
@@ -40,10 +60,18 @@
   text-align: justify;
   height:15em;
 }
+.overlay1{
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+  height:20em;
+}
 h5{
 	color:rgb(160,30,30);
 	font-family: Raleway-Bold;
 	font-size: 2em;
+	text-align: left;
 }
 
 .slogen{
@@ -64,6 +92,7 @@ h5{
 	padding-bottom: 1em;
 	background-color:white;
 	z-index:99;
+	opacity: 1;
 }
 
 
@@ -433,6 +462,23 @@ h2{ position: relative;
 }
 
 @media screen and (max-width: 850px ){ 
+.parallax2, .parallax3, .parallax4 {
+  position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 70em;
+}
+.parallax1 {
+  position: relative;
+    opacity:1;
+    background-attachment: fixed;
+    background-position: top;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .about-box{
 	top:8em;
@@ -953,9 +999,25 @@ h2{
 	font-family: Raleway-Regular;
 	line-height: 1.5em;
 }
+.parallax2, .parallax3, .parallax4 {
+  position: relative;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 48em;
+    background-color: rgb(160,30,30);
 
-
-
+}
+.parallax1 {
+  position: relative;
+    opacity:1;
+    background-attachment: fixed;
+    background-position: top;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
