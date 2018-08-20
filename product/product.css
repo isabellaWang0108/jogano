@@ -8,6 +8,7 @@
 	z-index:100;
 	background-color:rgb(160,30,30);
 	left:0;
+	left:0;
 }
 .navigation{
 	width:100%;
@@ -131,7 +132,7 @@ width:10%;
 	position:relative;
 	top:7em;
 	left:14%;
-	width:12em;
+	width:11em;
 }
 .tobuy{
 position: absolute;
@@ -154,7 +155,7 @@ padding-right: 2em;
 	position:absolute;
 	top:15em;
 	left:45%;
-	width:46%;
+	width:40%;
 	height:100%;
 	letter-spacing: .1em;
 }
@@ -172,6 +173,7 @@ font-family: Lato-Light;
 font-size: 1.2em;
 color: #000000;
 line-height: 45px;
+width:80%;
 }
 .grapecompo{
 	position:absolute;
@@ -288,6 +290,7 @@ text-decoration: none;
 	top:0;
 	z-index:100;
 	background-color: white;
+	left:0;
 }
 .products{
 font-family: Raleway-Bold;
@@ -377,7 +380,7 @@ position:absolute;
 top:28%;
 left:20%;
 font-size:1.6em;
-width:80%;
+width:40%;
 }
 .alchol{
 font-family: Lato-Regular;
@@ -408,7 +411,7 @@ font-size:1.4em;
 	position:absolute;
 	top:50em;
 	left:15%;
-	width:85%;
+	width:80%;
 	height:100%;
 	letter-spacing: .1em;
 	font-size: .9em;
@@ -457,7 +460,7 @@ position:absolute;
 top:28%;
 left:15%;
 font-size:1.3em;
-width:80%;
+width:40%;
 
 }
 .alchol{
@@ -512,7 +515,7 @@ text-decoration: none;
 	position:absolute;
 	top:50em;
 	left:12%;
-	width:85%;
+	width:80%;
 	height:100%;
 	letter-spacing: .1em;
 	font-size: .9em;
@@ -602,6 +605,7 @@ width:40%;
 	top:0;
 	z-index:100;
 	background-color: white;
+	left:0;
 }
 .products{
 font-family: Raleway-Bold;
