@@ -395,6 +395,28 @@ h2{ position: relative;
     display: none;
 }
 
+[data-filter-view]:not([data-filter-view=""]) [data-filter-key],
+[data-filter-view]:not([data-filter-view=""]) [data-filter-location]{
+    display: none;
+}
+
+
+[data-filter-view][data-filter-view~="アプリケーション開発"] [data-filter-key~="アプリケーション開発"],
+[data-filter-view][data-filter-view~="ソフトウェア開発"] [data-filter-key="ソフトウェア開発"],
+[data-filter-view][data-filter-view~="アナログ半導体(IC)設計開発および関連技術開発"] [data-filter-key="アナログ半導体(IC)設計開発および関連技術開発"],
+[data-filter-view][data-filter-view~="テスト/評価技術開発"] [data-filter-key="テスト/評価技術開発"],
+[data-filter-view][data-filter-view~="デバイス/プロセス技術開発"] [data-filter-key="デバイス/プロセス技術開発"],
+[data-filter-view][data-filter-view~="実装/パッケージ技術開発"] [data-filter-key="実装/パッケージ技術開発"],
+[data-filter-view][data-filter-view~="品質保証"] [data-filter-key="品質保証"],
+[data-filter-view][data-filter-view~="武蔵"] [data-filter-location="武蔵"],
+[data-filter-view][data-filter-view~="takasaki"] [data-filter-location="takasaki"]
+
+{
+    display: block;
+}
+
+
+
 [data-filter-view][data-filter-view~="white"] [data-filter-key~="white"],
 [data-filter-view][data-filter-view~="red"] [data-filter-key="red"],
 [data-filter-view][data-filter-view~="p0"] [data-filter-key="p0"],
