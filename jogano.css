@@ -1,6 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+
+
+[data-filter-view]:not([data-filter-view=""]) [data-filter-key],
+[data-filter-view]:not([data-filter-view=""]) [data-filter-location],
+[data-filter-view]:not([data-filter-view=""]) [data-filter-price],
+[data-filter-view]:not([data-filter-view=""]) [data-filter-body]{
+    display: none;
+}
+
+
+[data-filter-view][data-filter-view~="white"] [data-filter-key="white"],
+[data-filter-view][data-filter-view~="red"] [data-filter-key="red"],
+[data-filter-view][data-filter-view~="p0"] [data-filter-price="p0"],
+[data-filter-view][data-filter-view~="p100"] [data-filter-price="p100"],
+[data-filter-view][data-filter-view~="p200"] [data-filter-price="p200"],
+[data-filter-view][data-filter-view~="p350"] [data-filter-price="p350"],
+[data-filter-view][data-filter-view~="burgendy"] [data-filter-location="burgendy"],
+[data-filter-view][data-filter-view~="bordeaux"] [data-filter-location="bordeaux"],
+[data-filter-view][data-filter-view~="cahors"] [data-filter-location="cahors"],
+[data-filter-view][data-filter-view~="light"] [data-filter-body="light"],
+[data-filter-view][data-filter-view~="medium"] [data-filter-body="medium"],
+[data-filter-view][data-filter-view~="high"] [data-filter-body="high"]
+{
+    display:all;
+}
+
+
 .parallax1 {
   background: url('https://wangx733.github.io/jogano/topbar.jpg');
   min-height: 400px;
@@ -390,48 +417,6 @@ h2{ position: relative;
 }
 
 
-[data-filter-view]:not([data-filter-view=""]) [data-filter-key],
-{
-    display: none;
-}
-
-[data-filter-view]:not([data-filter-view=""]) [data-filter-key],
-[data-filter-view]:not([data-filter-view=""]) [data-filter-location]{
-    display: none;
-}
-
-
-[data-filter-view][data-filter-view~="アプリケーション開発"] [data-filter-key~="アプリケーション開発"],
-[data-filter-view][data-filter-view~="ソフトウェア開発"] [data-filter-key="ソフトウェア開発"],
-[data-filter-view][data-filter-view~="アナログ半導体(IC)設計開発および関連技術開発"] [data-filter-key="アナログ半導体(IC)設計開発および関連技術開発"],
-[data-filter-view][data-filter-view~="テスト/評価技術開発"] [data-filter-key="テスト/評価技術開発"],
-[data-filter-view][data-filter-view~="デバイス/プロセス技術開発"] [data-filter-key="デバイス/プロセス技術開発"],
-[data-filter-view][data-filter-view~="実装/パッケージ技術開発"] [data-filter-key="実装/パッケージ技術開発"],
-[data-filter-view][data-filter-view~="品質保証"] [data-filter-key="品質保証"],
-[data-filter-view][data-filter-view~="武蔵"] [data-filter-location="武蔵"],
-[data-filter-view][data-filter-view~="takasaki"] [data-filter-location="takasaki"]
-
-{
-    display: block;
-}
-
-
-
-[data-filter-view][data-filter-view~="white"] [data-filter-key~="white"],
-[data-filter-view][data-filter-view~="red"] [data-filter-key="red"],
-[data-filter-view][data-filter-view~="p0"] [data-filter-key="p0"],
-[data-filter-view][data-filter-view~="p100"] [data-filter-key="p100"],
-[data-filter-view][data-filter-view~="p200"] [data-filter-key="p200"],
-[data-filter-view][data-filter-view~="p350"] [data-filter-key="p350"],
-[data-filter-view][data-filter-view~="burgendy"] [data-filter-key="burgendy"],
-[data-filter-view][data-filter-view~="bordeaux"] [data-filter-key="bordeaux"],
-[data-filter-view][data-filter-view~="cahors"] [data-filter-key="cahors"]
-[data-filter-view][data-filter-view~="light"] [data-filter-key="light"]
-[data-filter-view][data-filter-view~="medium"] [data-filter-key="medium"]
-[data-filter-view][data-filter-view~="high"] [data-filter-key="high"]
-{
-    display: block;
-}
 
 .end-address{
 	font-size: 1em;
