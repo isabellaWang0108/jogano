@@ -4,27 +4,23 @@
 
 
 [data-filter-view]:not([data-filter-view=""]) [data-filter-key],
-[data-filter-view]:not([data-filter-view=""]) [data-filter-location],
-[data-filter-view]:not([data-filter-view=""]) [data-filter-price],
-[data-filter-view]:not([data-filter-view=""]) [data-filter-body]{
+[data-filter-view]:not([data-filter-view=""]) [data-filter-location]{
     display: none;
 }
 
-
-[data-filter-view][data-filter-view~="white"] [data-filter-key="white"],
 [data-filter-view][data-filter-view~="red"] [data-filter-key="red"],
+[data-filter-view][data-filter-view~="white"] [data-filter-key="white"],
 [data-filter-view][data-filter-view~="p0"] [data-filter-price="p0"],
-[data-filter-view][data-filter-view~="p100"] [data-filter-price="p100"],
-[data-filter-view][data-filter-view~="p200"] [data-filter-price="p200"],
 [data-filter-view][data-filter-view~="p350"] [data-filter-price="p350"],
-[data-filter-view][data-filter-view~="burgendy"] [data-filter-location="burgendy"],
-[data-filter-view][data-filter-view~="bordeaux"] [data-filter-location="bordeaux"],
-[data-filter-view][data-filter-view~="cahors"] [data-filter-location="cahors"],
+[data-filter-view][data-filter-view~="burgendy"] [data-filter-region="burgendy"],
+[data-filter-view][data-filter-view~="bordeaux"] [data-filter-region="bordeaux"],
+[data-filter-view][data-filter-view~="cahors"] [data-filter-region="cahors"],
+[data-filter-view][data-filter-view~="loire"] [data-filter-region="loire"],
 [data-filter-view][data-filter-view~="light"] [data-filter-body="light"],
 [data-filter-view][data-filter-view~="medium"] [data-filter-body="medium"],
 [data-filter-view][data-filter-view~="high"] [data-filter-body="high"]
 {
-    display:all;
+    display:inline-block;
 }
 
 

@@ -46,10 +46,16 @@
       <div class="naviline2"></div>
 	</div>
 
+
+
+
+
+
+
 <div id="filterContent">
 <div class="naviline"> </div>
 <div class="filter">
-  <h2>TYPE</h2>
+ <h2>TYPE</h2>
 
 <label>
           <input type="checkbox" value="red">
@@ -68,29 +74,14 @@
 
   <label>
           <input type="checkbox" value="p0">
-          <span class="checkboxParts lato">¥&#160;&#160;&#160;&#160;&#160;&#160;&#160;0 - 100</span>
+          <span class="checkboxParts lato">¥&#160;&#160;&#160;&#160;&#160;&#160;&#160;0 - 350</span>
         </label>
 
         <br>
-
-         <label>
-          <input type="checkbox" value="p100">
-          <span class="checkboxParts lato">¥ 100 - 200</span>
-        </label>
-
-        <br>
-
-         <label>
-          <input type="checkbox" value="p200">
-          <span class="checkboxParts lato">¥ 200 - 350</span>
-        </label>
-
-        <br>
-
 
          <label>
           <input type="checkbox" value="p350">
-          <span class="checkboxParts">¥ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; >350</span>
+          <span class="checkboxParts lato">¥ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; >350</span>
         </label>
             
   <h2>REGION</h2>
@@ -114,6 +105,13 @@
           <span class="checkboxParts">Cahors</span>
         </label>
 
+ <label>
+          <input type="checkbox" value="loire">
+          <span class="checkboxParts">Loire valley</span>
+        </label>
+
+
+
  <h2>BODY</h2>
  <label>
           <input type="checkbox" value="light">
@@ -130,7 +128,6 @@
           <input type="checkbox" value="high">
           <span class="checkboxParts">High</span>
         </label>
-
 
 
 </div>
@@ -155,29 +152,14 @@
 
   <label>
           <input type="checkbox" value="p0">
-          <span class="checkboxParts lato">¥&#160;&#160;&#160;&#160;&#160;&#160;&#160;0 - 100</span>
+          <span class="checkboxParts lato">¥&#160;&#160;&#160;&#160;&#160;&#160;&#160;0 - 350</span>
         </label>
 
         <br>
-
-         <label>
-          <input type="checkbox" value="p100">
-          <span class="checkboxParts lato">¥ 100 - 200</span>
-        </label>
-
-        <br>
-
-         <label>
-          <input type="checkbox" value="p200">
-          <span class="checkboxParts lato">¥ 200 - 350</span>
-        </label>
-
-        <br>
-
 
          <label>
           <input type="checkbox" value="p350">
-          <span class="checkboxParts lato">¥ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; >350</span>
+          <span class="checkboxParts lato">¥ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; >350</span>
         </label>
             
   <h2>REGION</h2>
@@ -201,6 +183,13 @@
           <span class="checkboxParts">Cahors</span>
         </label>
 
+ <label>
+          <input type="checkbox" value="loire">
+          <span class="checkboxParts">Loire valley</span>
+        </label>
+
+
+
  <h2>BODY</h2>
  <label>
           <input type="checkbox" value="light">
@@ -223,17 +212,85 @@
 
 <div class="box">
 
+<form class="controls" id="Filters">
+  <!-- We can add an unlimited number of "filter groups" using the following format: -->
+  
+  <fieldset>
+    <h4>Shapes</h4>
+    <div class="checkbox">
+      <input type="checkbox" value=".square"/>
+      <label>Square</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".circle"/>
+      <label>Circle</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".triangle"/>
+      <label>Triangle</label>
+    </div>
+  </fieldset>
+  
+  <fieldset>
+    <h4>Colours</h4>
+    <div class="checkbox">
+      <input type="checkbox" value=".white"/>
+      <label>White</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".green"/>
+      <label>Green</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".blue"/>
+      <label>Blue</label>
+    </div>
+  </fieldset>
+  
+  <fieldset>
+    <h4>Sizes</h4>
+    <div class="checkbox">
+      <input type="checkbox" value=".sm"/>
+      <label>Small</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".lrg"/>
+      <label>Large</label>
+    </div>
+  </fieldset>
+  
+  <button id="Reset">Clear Filters</button>
+</form>
+
+<div id="Container" class="container">
+  <div class="fail-message"><span>No items were found matching the selected filters</span></div>
+  
+  <div class="mix triangle white lrg"></div>
+  <div class="mix square white sm"></div>
+  <div class="mix circle green lrg"></div>
+  <div class="mix triangle blue lrg"></div>
+  <div class="mix square white lrg"></div>
+  <div class="mix circle blue sm"></div>
+  <div class="mix triangle green lrg"></div>
+  <div class="mix square blue lrg"></div>
+  <div class="mix circle white lrg"></div>
+  
+  <div class="gap"></div>
+  <div class="gap"></div>
+  <div class="gap"></div>
+  <div class="gap"></div>
+</div>
+    
 
 
 
-
-<a href="https://wangx733.github.io/jogano/product/1.html" class="items red" data-filter-key="white">
+<a data-filter-key="white" href="https://wangx733.github.io/jogano/product/1.html" class="items red" data-filter-key="red" data-filter-price="p0">
 <div class="redwine"></div>
 <div class="pricee">¥ 99</div>
 <img src="https://wangx733.github.io/jogano/1-products/1-bachevillain.png" class="image" >
 <h1>BACHEVILLAIN </h1>
 <div class="introo">
-  <h3>14.0%</h3>
+  <h3>13.0%</h3>
   <h3>Blend</h3>
   <h3>Bordeaux</h3>
 </div>
@@ -241,13 +298,13 @@
 
 
 
-<a href="https://wangx733.github.io/jogano/product/2.html" class="items red" data-filter-key="white">
+<a href="https://wangx733.github.io/jogano/product/2.html" class="items red" data-filter-key="red" data-filter-price="p0">
 <div class="redwine"></div>
 <div class="pricee">¥ 88</div>
 <img src="https://wangx733.github.io/jogano/1-products/2-lostpara.png" class="image" >
 <h1>Lost Paradise </h1>
 <div class="introo">
-  <h3>14.0%</h3>
+  <h3>13.0%</h3>
   <h3>Blend</h3>
   <h3>Bordeaux</h3>
 </div>
@@ -255,19 +312,19 @@
 
 
 
-<a href="https://wangx733.github.io/jogano/product/4.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/4.html" class="items" data-filter-key="red" data-filter-price="p350">
   <div class="redwine"></div>
 <div class="pricee">¥ 358</div>
 <img src="https://wangx733.github.io/jogano/1-products/4-pomerol07.png" class="image" >
 <h1>Chateau Du Tailhas  </h1>
 <div class="introo">
-  <h3>14.0%</h3>
+  <h3>13.0%</h3>
   <h3>Blend</h3>
   <h3>Bordeaux</h3>
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/7.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/7.html" class="items" data-filter-key="white" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 256</div>
 <img src="https://wangx733.github.io/jogano/1-products/7-cuveeflamme.png" class="image" >
@@ -279,7 +336,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/8.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/8.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 256</div>
 <img src="https://wangx733.github.io/jogano/1-products/8-flamme-rose.png" class="image" >
@@ -291,7 +348,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/9.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/9.html" class="items" data-filter-key="red" data-filter-price="p350">
   <div class="redwine"></div>
 <div class="pricee">¥ 369</div>
 <img src="https://wangx733.github.io/jogano/1-products/9-haute.png" class="image" >
@@ -303,7 +360,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/10.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/10.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 208</div>
 <img src="https://wangx733.github.io/jogano/1-products/10-gouleyant.png" class="image" >
@@ -315,7 +372,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/11.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/11.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 288</div>
 <img src="https://wangx733.github.io/jogano/1-products/11-laffeur.png" class="image" >
@@ -327,7 +384,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 246</div>
 <img src="https://wangx733.github.io/jogano/1-products/49-bel.png" class="image" >
@@ -339,7 +396,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/13.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/13.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 209</div>
 <img src="https://wangx733.github.io/jogano/1-products/13-barrabaque.png" class="image" >
@@ -350,7 +407,7 @@
   <h3>Bordeaux</h3>
 </div>
 </a>
-<a href="https://wangx733.github.io/jogano/product/14.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/14.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 299</div>
 <img src="https://wangx733.github.io/jogano/1-products/14-badon.png" class="image" >
@@ -362,7 +419,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/18.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/18.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 138</div>
 <img src="https://wangx733.github.io/jogano/1-products/18-peyruchet16.png" class="image" >
@@ -374,7 +431,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/.html" class="items" data-filter-key="white" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 218</div>
 <img src="https://wangx733.github.io/jogano/1-products/.png" class="image" >
@@ -385,7 +442,7 @@
   <h3>Bordeaux</h3>
 </div>
 </a>
-<a href="https://wangx733.github.io/jogano/product/20.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/20.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 218</div>
 <img src="https://wangx733.github.io/jogano/1-products/20-ducasse.png" class="image" >
@@ -396,7 +453,7 @@
   <h3>Bordeaux</h3>
 </div>
 </a>
-<a href="https://wangx733.github.io/jogano/product/.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 208</div>
 <img src="https://wangx733.github.io/jogano/1-products/.png" class="image" >
@@ -408,7 +465,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/24.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/24.html" class="items" data-filter-key="red" data-filter-price="p350"> 
   <div class="redwine"></div>
 <div class="pricee">¥ 450</div>
 <img src="https://wangx733.github.io/jogano/1-products/24-canteloup.png" class="image" >
@@ -420,7 +477,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/22.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/22.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 228</div>
 <img src="https://wangx733.github.io/jogano/1-products/22-semonlon15.png" class="image" >
@@ -432,7 +489,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/21.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/21.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 189</div>
 <img src="https://wangx733.github.io/jogano/1-products/21-Croix12.png" class="image" >
@@ -443,7 +500,7 @@
   <h3>Bordeaux</h3>
 </div>
 </a>
-<a href="https://wangx733.github.io/jogano/product/23.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/23.html" class="items" data-filter-key="red" data-filter-price="p0">
   <div class="redwine"></div>
 <div class="pricee">¥ 109</div>
 <img src="https://wangx733.github.io/jogano/1-products/23-luchey.png" class="image" >
@@ -455,7 +512,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/31.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/31.html" class="items" data-filter-key="red" data-filter-price="p350">
   <div class="redwine"></div>
 <div class="pricee">¥ 680</div>
 <img src="https://wangx733.github.io/jogano/1-products/31-meursault-b.png" class="image" >
@@ -467,7 +524,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/29.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/29.html" class="items" data-filter-key="red" data-filter-price="p350">
   <div class="redwine"></div>
 <div class="pricee">¥ 399</div>
 <img src="https://wangx733.github.io/jogano/1-products/29-morey10.png" class="image" >
@@ -479,7 +536,7 @@
 </div>
 </a>
 
-<a href="https://wangx733.github.io/jogano/product/.html" class="items">
+<a href="https://wangx733.github.io/jogano/product/.html" class="items" data-filter-key="red" data-filter-price="p350">
   <div class="redwine"></div>
 <div class="pricee">¥ 595</div>
 <img src="https://wangx733.github.io/jogano/1-products/.png" class="image" >
@@ -490,7 +547,9 @@
   <h3>Bordeaux</h3>
 </div>
 </a>
-<a href="https://wangx733.github.io/jogano/product/30.html" class="items">
+
+
+<a href="https://wangx733.github.io/jogano/product/30.html" class="items" data-filter-key="red" data-filter-price="p350">
   <div class="redwine"></div>
 <div class="pricee">¥ 448</div>
 <img src="https://wangx733.github.io/jogano/1-products/30-asint-aubin.png" class="image" >
