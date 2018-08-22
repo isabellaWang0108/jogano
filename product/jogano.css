@@ -19,8 +19,8 @@
 [data-filter-view] [data-filter-region="cahors"],
 [data-filter-view] [data-filter-region="loire"],
 [data-filter-view] [data-filter-body="light"],
-[data-filter-view][data-filter-body="medium"],
-[data-filter-view][data-filter-body="high"]
+[data-filter-view] [data-filter-body="medium"],
+[data-filter-view] [data-filter-body="high"]
 {
     display:inline-block;
 }
