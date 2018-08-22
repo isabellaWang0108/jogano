@@ -7,32 +7,75 @@
 </head>
 <body>
 
-<div ng-app='angularDemo' ng-cloak>
-  <md-toolbar layout-padding>
-    <h2>Filtering with Angular Filters</h2>
-  </md-toolbar>
-  <div layout="row" ng-controller="angularController as ctrl">
-    <div flex="20" class="sidebar" layout-padding>
-      <div ng-repeat="filter in Filters">
-        <h3 class="sort">{{filter.name}}</h3>
-        <ul class="sortoptions">
-          <li ng-repeat="option in filter.options">
-            <input type="checkbox" ng-model="option.IsIncluded" ng-checked="option.IsIncluded"> {{option.value}}
-            <span>({{option.count}})</span>
-          </li>
-        </ul>
-      </div>
-      <md-button class="md-raised" ng-click="ctrl.toggleAll($event, false)">Uncheck All</md-button>
-      <br/>
-      <md-button class="md-raised" ng-click="ctrl.toggleAll($event, true)">Check All</md-button>
-   </div>
-    <div flex="50" layout="row">
-      <md-card flex ng-repeat="fruit in Fruits | dynamicFilter:Filters:this" class="product">
-        {{fruit.name}}
-      </md-card>
+<form class="controls" id="Filters">
+  <!-- We can add an unlimited number of "filter groups" using the following format: -->
+  
+  <fieldset>
+    <h4>Shapes</h4>
+    <div class="checkbox">
+      <input type="checkbox" value=".square"/>
+      <label>Square</label>
     </div>
-  </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".circle"/>
+      <label>Circle</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".triangle"/>
+      <label>Triangle</label>
+    </div>
+  </fieldset>
+  
+  <fieldset>
+    <h4>Colours</h4>
+    <div class="checkbox">
+      <input type="checkbox" value=".white"/>
+      <label>White</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".green"/>
+      <label>Green</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".blue"/>
+      <label>Blue</label>
+    </div>
+  </fieldset>
+  
+  <fieldset>
+    <h4>Sizes</h4>
+    <div class="checkbox">
+      <input type="checkbox" value=".sm"/>
+      <label>Small</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".lrg"/>
+      <label>Large</label>
+    </div>
+  </fieldset>
+  
+  <button id="Reset">Clear Filters</button>
+</form>
+
+<div id="Container" class="container">
+  <div class="fail-message"><span>No items were found matching the selected filters</span></div>
+  
+  <div class="mix triangle white lrg"></div>
+  <div class="mix square white sm"></div>
+  <div class="mix circle green lrg"></div>
+  <div class="mix triangle blue lrg"></div>
+  <div class="mix square white lrg"></div>
+  <div class="mix circle blue sm"></div>
+  <div class="mix triangle green lrg"></div>
+  <div class="mix square blue lrg"></div>
+  <div class="mix circle white lrg"></div>
+  
+  <div class="gap"></div>
+  <div class="gap"></div>
+  <div class="gap"></div>
+  <div class="gap"></div>
 </div>
+    
 
 
 
