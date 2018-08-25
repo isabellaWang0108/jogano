@@ -8,10 +8,6 @@ body, button{
   -webkit-font-smoothing: antialiased;
 }
  
-/**
- * Form & Checkbox Styles
- */
-
 h4{
   font-weight: 700;
   margin-bottom: .5em;
@@ -118,9 +114,6 @@ fieldset{
   background: #eee;
 }
 
-/**
- * Container/Target Styles
- */
 
 .container{
   padding: 2%;
@@ -168,10 +161,6 @@ fieldset{
   width: 50px;
   height: 50px;
 }
-
-/**
- * Fail message styles
- */
 
 .container .fail-message{
   position: absolute;

@@ -1,0 +1,1395 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+
+.sidebar {
+  float: left;
+  text-transform: capitalize;
+}
+h3 {
+    margin-bottom: 0px;
+  }
+  ul {
+    margin-top: 3px;
+    margin-bottom: 0;
+  }
+  .sortoptions {
+    list-style: none;
+    padding-left: 0px;
+  }
+}
+
+.product {
+  max-width: 110px;
+  height: 70px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+}
+
+
+
+
+.parallax1 {
+  background: url('https://wangx733.github.io/jogano/topbar.jpg');
+  min-height: 400px;
+}
+.parallax2 {
+  background: url('https://wangx733.github.io/jogano/visit.jpg');
+  min-height: 400px;
+}
+.parallax3 {
+  background: url('https://wangx733.github.io/jogano/taste.jpg');
+  min-height: 400px;
+}
+
+.parallax4 {
+  background: url('https://wangx733.github.io/jogano/select.jpg');
+  min-height: 400px;
+}
+.parallax5 {
+  background: url('https://wangx733.github.io/jogano/deliver.jpg');
+  min-height: 400px;
+}
+
+
+.parallax2, .parallax3, .parallax4 {
+  position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 {
+  position: relative;
+    opacity:1;
+    background-attachment: fixed;
+    background-position: top;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 { 
+	position: relative;
+    opacity: 1;
+    top:-3vw;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+.relative{
+	position: relative;
+}
+
+.overlay{
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+  height:15em;
+  font-family: Raleway-Regular;
+}
+.overlay1{
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+  height:20em;
+  font-family: Raleway-Regular;
+}
+h5{
+	color:rgb(160,30,30);
+	font-family: Raleway-Bold;
+	font-size: 2em;
+	text-align: left;
+}
+
+.slogen{
+	position: relative;
+	top:8em;
+	width:60%;
+	left:20%;
+	height:5em;
+	font-family: Raleway-Bold;
+	font-size: 2em;
+	text-align: center;
+	color:rgb(160,30,30);
+	border: solid;
+	border-color: rgb(160,30,30);
+	border-width: 2px;
+	line-height: 2em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	background-color:white;
+	z-index:99;
+	opacity: 1;
+}
+
+
+.about-box{
+	top:8em;
+	width:55%;
+	max-width:40em;
+	left:22%;
+	font-size: auto;
+	position: absolute;
+	font-family: Raleway-Regular;
+	line-height: 1.5em;
+}
+.about-title{
+	position: absolute;
+font-family: Raleway-Bold;
+color:rgb(160,30,30);
+font-size: 1.5em;
+top:4em;
+left:10%;
+width:90%;
+text-align: center;
+}
+h4{
+	font-family:Raleway-Bold;
+	color:black;
+	font-size: .8em;
+	text-align: right;
+}
+.event-join{
+	font-family: Raleway-Bold;
+	font-size: 1.2em;
+	color:rgb(160,30,30);
+	position:absolute;
+	left:70%;
+	top:70%;
+}
+.event-detail{
+	position:absolute;
+	top:13%;
+	left:67%;
+	width:28%;
+	font-family: Raleway-Regular;
+	font-size: 1.1em;
+	line-height: 1.4em;
+
+}
+.event-pack{
+	width:100%;
+	height:22em;
+	background-color: white;
+	left:0;
+	top:2em;
+	position:relative;
+	border: 2px;
+	border-color: white;
+	border-bottom-color:rgb(160,30,30);
+	border-bottom-style: solid;
+}
+.event-title{
+	position:absolute;
+	width:40%;
+	left:-6vw;
+	top:-11em;
+	height:100%;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+.event-pic{
+	width:30vw;
+	min-width: 20em;
+	position:absolute; 
+	top:10%;
+	right:36vw;
+	display:inline-block;
+
+}
+
+.naviline{
+	width:100%;
+	height:2px;
+	position: fixed;
+	top:4em;
+	z-index:100;
+	background-color:rgb(160,30,30);
+	left:0;
+}
+.navigation{
+	width:100%;
+	height:4em;
+	position: fixed;
+	top:.1px;
+	z-index:105;
+	background-color: white;
+	left:0;
+}
+.navi:hover{
+	transform: scale(1.2);
+	color:rgb(160,30,30);
+}
+.lang:hover{color:rgb(160,30,30);
+	}
+.products{
+font-family: Raleway-Bold;
+font-size: 1.4em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:36.5%;
+z-index:101;
+top:.9em;
+}
+.events{
+font-family: Raleway-Bold;
+font-size: 1.4em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:54.5%;
+z-index:101;
+top:.9em;
+}
+.about{
+font-family: Raleway-Bold;
+font-size: 1.4em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:70%;
+z-index:101;
+top:.9em;
+}
+.lang{
+	font-family: Raleway-Light;
+font-size: .8em;
+color: black;
+text-decoration: none;
+position:fixed;
+z-index:101;
+}
+.en{
+left:91%;
+top:1.9em;
+}
+.gang{
+	left:93.5%;
+	top:1.8em;
+}
+.cn{
+	left:94.5%;
+	top:1.7em;
+}
+.logo{
+position:fixed;
+left:4.8%;
+z-index:300;
+top:.9em;
+width:10.2em;
+}
+
+.navi2 {
+	display:none;
+}
+.photo{
+	position:relative;
+	top:7em;
+	left:14%;
+	width:12em;
+}
+
+h2{
+	font-family: Raleway-Bold;
+}
+
+.navi2{
+	display: none;
+}
+.box{
+	left:20%;
+	width:80%;
+	top:4em;
+	display:inline-block;
+	position:absolute;
+}
+.items:hover{
+	background-color:rgb(160,30,30) ;
+	opacity: .7;
+	z-index:200;
+}
+.items{
+	width:15em;
+	height: 25em;
+	border: solid;
+	border-color: rgb(160,30,30);
+	border-width: 2px;
+	background-color: white;
+	display:inline-block;
+	left:2em;
+	margin-left: 2em;
+	margin-top:4em;
+	position: relative;
+	alignment-baseline: auto;
+	text-decoration: none;
+
+}
+.image{
+	padding-left: 30%;
+	padding-top: 20%;
+	width:40%;
+	position: absolute;
+}
+.redwine{
+	position: absolute;
+	top:.6em;
+	left:.7em;
+	  height: .8em;
+  	width: .8em;
+  	background-color:rgb(160,30,30);
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.whitewine{
+	position: absolute;
+	top:.6em;
+	left:.7em;
+	  height: .8em;
+  	width: .8em;
+  	background-color:#FAE6A0;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.pricee{
+	font-family: Lato-Regular;
+	position: absolute;
+	top:.1em;
+	left:2em;
+	text-decoration: none;
+	color:black;
+	font-size: 1.4em;
+	letter-spacing: .1em;
+
+}
+
+h1{
+	position:absolute;
+	font-family: Raleway-Bold;
+	font-size:1.2em;
+	color:black;
+	left:0%;
+	width:95%;
+	top:78%;
+	text-align: center;
+}
+h3{
+	top:23.4em;
+	position:relative;
+	font-size:1em;
+	left:0;
+	width:95%;
+	opacity: 0.5;
+	font-family: Raleway-Regular;
+	color: #A01E1E;
+	padding-left: 1em;
+	display: inline;
+}
+
+.filter{
+	position:absolute;
+	left:0;
+	padding-left: 5%;
+	top:5.5em;
+	width:20%;
+	height:100%;
+	font-family: Raleway-Regular;
+	font-size: 1em;
+    line-height: 1.6em;
+
+}
+
+
+h2{ position: relative;
+	font-family: Raleway-Semibold;
+	font-size:1em;
+	color:black;
+	text-align: left;
+}
+.lato{
+	font-family: Lato-Light;
+}
+
+
+
+.end-address{
+	font-size: 1em;
+	font-family: Lato;
+	line-height: 2em;
+	position:relative;
+	top:15em;
+	left:8%;
+	width:25%;
+}
+.tele{
+	font-size: 1em;
+	font-family: Lato;
+	line-height: 1.5em;
+	position:relative;
+	top:9.5em;
+	left:40%;
+	width:20%;
+}
+.boicon{
+	text-decoration: none;
+	width:2em;
+}
+.icon{
+	font-size:2em;
+	width:1.2em;
+	padding-left: 1em;
+}
+.contact{
+	position: relative;
+	top:7.5em;
+	left:60%;
+	width:40%;
+}
+.lastline{
+  position:relative;
+  top:13em;
+  left:-15em;
+  width:100%; 
+  z-index:200;
+  color:black;
+ font-size: .7em;
+  letter-spacing: .1em;
+ 
+}
+.padding{
+	width:100%;
+	position: relative;
+	height:4em;
+	top:10em;
+	left:0;
+	background-color: white;
+	z-index:400;
+
+}
+
+
+.backk{
+	position:fixed;
+	left:4%;
+	width: 4em;
+	color:rgb(160,30,30);
+	top:15%;
+	z-index: 300;
+	font-size: 3em;
+	text-decoration: none;
+}
+.backk:hover{
+	transform: scale(1.2);
+}
+
+//////product display
+
+.dis-price{
+font-family: Lato;
+font-size: 32px;
+color: #000000;
+position:absolute;
+top:22%;
+left:45%;
+width:40%;
+font-size:1.6em;
+}
+.dis-p-name{
+	font-family: Raleway-Bold;
+font-size: 32px;
+color: rgb(160,30,30);
+position:absolute;
+top:28%;
+left:45%;
+font-size:1.6em;
+width:40%;
+}
+.dis-alchol{
+font-family: Lato-Regular;
+color: #000000;
+position:relative;
+top:-1.3em;
+left:23em;
+font-size:.6em;
+width:10%;
+}
+
+
+.dis-photo{
+	position:relative;
+	top:7em;
+	left:14%;
+	width:11em;
+}
+.dis-tobuy{
+position: absolute;
+top:40em;
+left:35%;
+background-color: black;
+border: 2px;
+border-color: rgb(160,30,30);
+font-family:Raleway-Bold;
+font-size: 1em;
+color:rgb(160,30,30);
+z-index:200;
+text-align: center;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 2em;
+padding-right: 2em;
+}
+.dis-grape{
+	position:absolute;
+	top:15em;
+	left:45%;
+	width:40%;
+	height:100%;
+	letter-spacing: .1em;
+}
+.dis-icon{
+   width:3em;
+   position: relative;
+   top: 1em;
+}
+
+.dis-grapenum{
+	position:absolute;
+	top:.8em;
+	left:3em;
+font-family: Lato-Light;
+font-size: 1.2em;
+color: #000000;
+line-height: 45px;
+width:80%;
+}
+.dis-grapecompo{
+	position:absolute;
+	top:.8em;
+	left:6em;
+	font-family: Raleway-Regular;
+	font-size: 1.2em;
+	color: #000000;
+	line-height: 45px;
+}
+
+
+.dis-region-description{
+	position:relative;
+	top:-.7em;
+	left:-3em;
+	font-family: Raleway-Regular;
+	color: #000000;
+
+}
+
+.dis-pair-description{
+	position:relative;
+	top:-3.2em;
+	left:-3em;
+	font-family: Raleway-Regular;
+	color: #000000;
+
+}
+h2{
+	font-family: Raleway-Bold;
+}
+
+.dis-notes{
+	position:relative;
+	font-family: Raleway-Regular;
+	color:black;
+	font-size: .9em;
+	top:2em;
+	width:100%;
+	line-height: 1.6em;
+}
+.dis-tobuy{
+position: absolute;
+top:39em;
+left:16%;
+background-color: white;
+border-width: 2px;
+border: solid;
+border-color: rgb(160,30,30);
+font-family:Raleway-Bold;
+font-size: 1em;
+color:rgb(160,30,30);
+z-index:200;
+text-align: center;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 2em;
+padding-right: 2em;
+text-decoration: none;
+}
+
+.dis-tobuy:hover{
+	background-color:rgb(160,30,30);
+	color: white;
+}
+
+
+@media screen and (max-width: 850px ){ 
+.parallax2, .parallax3, .parallax4 {
+  position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 70em;
+}
+.parallax1 {
+  position: relative;
+    opacity:1;
+    background-attachment: fixed;
+    background-position: top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-box{
+	top:8em;
+	width:60%;
+	max-width:40em;
+	left:15%;
+	font-size: auto;
+	position: absolute;
+	font-family: Raleway-Regular;
+	line-height: 1.5em;
+}
+.about-title{
+	position: absolute;
+font-family: Raleway-Bold;
+color:rgb(160,30,30);
+font-size: 1.4em;
+top:4em;
+left:0%;
+width:90%;
+text-align: left;
+}
+
+.navigationblock{
+	width:100%;
+	height:4em;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:300;
+	background-color: white;
+}
+
+.navi{
+	display:none;
+}	
+.lang{
+	display:none;
+}
+.navigation{
+	display:none;
+}
+.navi2{
+	width:100%;
+	position: fixed;
+	padding-top:4em;
+	z-index:380;
+	left:0;
+}
+.products{
+font-family: Raleway-Bold;
+font-size: 1.3em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:20%;
+z-index:101;
+top:2em;
+}
+.events{
+font-family: Raleway-Bold;
+font-size: 1.3em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:20%;
+z-index:101;
+top:7em;
+}
+.about{
+font-family: Raleway-Bold;
+font-size: 1.3em;
+color: black;
+text-decoration: none;
+position:fixed;
+left:20%;
+z-index:101;
+top:12em;
+}
+.lang2{
+color: black;
+text-decoration: none;
+position:fixed;
+z-index:101;
+}
+.lang2:hover{
+	color:rgb(160,30,30);
+	}
+.en{
+left:82%;
+top:7.5em;
+}
+.gang{
+	left:87%;
+	top:7.5em;
+}
+.cn{
+	left:89%;
+	top:7.4em;
+}
+.naviline2{
+	width:100%;
+	top:4.1em;
+	height:25em;
+	position: fixed;
+	border-color:rgb(160,30,30);
+	border-bottom-color: rgb(160,30,30);
+	border-bottom: solid;
+	border-width:2px;
+	z-index:100;
+	background-color:white;
+	left:0;
+}
+.hamburger{
+    position:fixed;
+    top:.4em;
+    right:5%;
+    font-size:1.8em;
+    z-index:400;
+}
+.hamburger:hover{
+	transform: scale(1.2);
+}
+.cross{
+	 position:fixed;
+    top:.2em;
+    right:5%;
+    font-size:4em;
+    z-index:400;
+}
+.cross:hover{
+	transform: scale(1.2);
+}
+
+.apply{
+	position:fixed;
+    top:2.1em;
+    right:15%;
+    font-size:.8em;
+    font-family: Raleway-Semibold;
+    z-index:300;
+    color:rgb(160,30,30);
+}
+.apply:hover{
+	transform: scale(1.2);
+}
+.cross2{
+	 position:fixed;
+    top:.2em;
+    right:5%;
+    font-size:3.5em;
+    z-index:400;
+    color:rgb(160,30,30);
+}
+.cross2:hover{
+	transform: scale(1.2);
+}
+.filter{
+	display:none;
+}
+.filter2{
+	top:2.95em;
+	position:fixed;
+	left:0;
+	background-color: white;
+	z-index:200;
+		padding-left: 10%;
+	width:90%;
+	height:25em;
+	font-family: Raleway-Regular;
+	font-size: 1.4em;
+    line-height: 1.6em;
+    color:black;
+}
+h2{ position: relative;
+	font-family: Raleway-Semibold;
+	font-size:1.1em;
+	color:black;
+	text-align: left;
+}
+
+.box{
+	left:0;
+	width:95%;
+}
+
+
+.items{
+	width:12em;
+	height: 22em;
+	border-width: 2px;
+	left:2em;
+	margin-left: 1em;
+	margin-top:3em;
+
+}
+.image{
+	padding-left: 26%;
+	padding-top: 15%;
+	height:60%;
+	position: absolute;
+}
+.redwine{
+	top:.6em;
+	left:.7em;
+	  height: .5em;
+  	width: .5em;
+}
+.whitewine{
+	top:.6em;
+	left:.7em;
+	  height: .5em;
+  	width: .5em;
+}
+.pricee{
+	top:.1em;
+	left:2em;
+	font-size: 1.2em;
+	letter-spacing: .05em;
+
+}
+
+h1{
+	position:absolute;
+	font-size:1em;
+	left:0%;
+	width:95%;
+	top:78%;
+}
+h3{
+	top:25em;
+	position:relative;
+	font-size:.8em;
+	left:0;
+	width:95%;
+	padding-left: .8em;
+}
+.cross2{
+	 position:fixed;
+    top:1.1em;
+    right:5%;
+    font-size:4em;
+    z-index:400;
+}
+.end-address{
+	font-size: .8em;
+	font-family: Lato;
+	line-height: 2em;
+	position:relative;
+	top:15em;
+	left:8%;
+	width:90%;
+}
+.tele{
+	font-size: .8em;
+	font-family: Lato;
+	line-height: 1.5em;
+	position:relative;
+	top:16em;
+	left:8%;
+	width:90%;
+}
+
+.contact{
+	position: relative;
+	top:15em;
+	left:0%;
+	width:90%;
+}
+.lastline{
+  position:relative;
+  top:36em;
+  left:8%;
+  width:90%; 
+  z-index:200;
+  color:black;
+ font-size: .7em;
+  letter-spacing: .1em;
+ 
+}
+.icon{
+	width:1.5em;
+}
+.padding{
+	width:90%;
+	position: relative;
+	height:4em;
+	top:25em;
+	left:0;
+	background-color: white;
+
+}
+
+.event-join{
+	font-family: Raleway-Bold;
+	font-size: 1.2em;
+	color:rgb(160,30,30);
+	position:absolute;
+	left:75%;
+	top:90%;
+	width:25%;
+}
+.event-detail{
+	position:absolute;
+	top:65%;
+	left:5%;
+	width:90%;
+	font-family: Raleway-Regular;
+	font-size: auto;
+	line-height: 1.4em;
+
+}
+.event-pack{
+	width:100%;
+	height:24em;
+	background-color: white;
+	left:0;
+	top:2em;
+	position:relative;
+	border: 2px;
+	border-color: white;
+	border-bottom-color:rgb(160,30,30);
+	border-bottom-style: solid;
+}
+.event-title{
+	position:absolute;
+	width:40%;
+	left:5%;
+	top:-11em;
+	height:100%;
+	font-size: 1.4em;
+	line-height: 1.8em;
+}
+.left{
+	text-align: left;
+}
+.lato{
+	text-align: left;
+}
+.event-pic{
+	width:20vw;
+	position:absolute; 
+	right:10%;
+	top:15%;
+	display:inline-block;
+	min-width: 13em;
+
+}
+
+
+.dis-p-name{
+	font-family: Raleway-Bold;
+font-size: 32px;
+color: rgb(160,30,30);
+position:absolute;
+top:28%;
+left:20%;
+font-size:1.6em;
+width:40%;
+}
+.dis-alchol{
+font-family: Lato-Regular;
+color: #000000;
+position:relative;
+top:-1.6em;
+left:30em;
+font-size:.4em;
+}
+
+.dis-price{
+font-family: Lato;
+font-size: 32px;
+color: #000000;
+position:absolute;
+top:22%;
+left:20%;
+font-size:1.4em;
+}
+.dis-photo{
+	position:relative;
+	top:15em;
+	left:35%; 
+	width:18vw;
+	min-width: 8em;
+}
+.dis-grape{
+	position:absolute;
+	top:50em;
+	left:15%;
+	width:80%;
+	height:100%;
+	letter-spacing: .1em;
+	font-size: .9em;
+}
+.dis-tobuy{
+position: absolute;
+top:39em;
+left:33%;
+background-color: white;
+border-width: 2px;
+border: solid;
+border-color: rgb(160,30,30);
+font-family:Raleway-Bold;
+font-size: 1em;
+color:rgb(160,30,30);
+z-index:200;
+text-align: center;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 2em;
+padding-right: 2em;
+text-decoration: none;
+}
+.dis-grey{
+border-color: grey;
+color:grey;
+
+}
+.dis-tobuy:hover{
+	background-color:rgb(160,30,30);
+	color: white;
+}
+
+}
+
+
+@media screen and (max-width: 480px ){
+
+.event-join{
+	font-family: Raleway-Bold;
+	font-size: 1em;
+	color:rgb(160,30,30);
+	position:absolute;
+	left:65%;
+	top:93%;
+	width:35%;
+}
+.event-detail{
+	position:absolute;
+	top:68%;
+	left:5%;
+	width:90%;
+	font-family: Raleway-Regular;
+	font-size: auto;
+	line-height: 1.4em;
+
+}
+.event-pack{
+	width:100%;
+	height:30em;
+	background-color: white;
+	left:0;
+	top:2em;
+	position:relative;
+	border: 2px;
+	border-color: white;
+	border-bottom-color:rgb(160,30,30);
+	border-bottom-style: solid;
+}
+.event-title{
+	position:absolute;
+	width:90%;
+	left:4%;
+	top:-13em;
+	height:100%;
+	font-size: 1.7em;
+	line-height: 1.5em;
+}
+.event-pic{
+	position:absolute; 
+	right:auto;
+	left:5%;
+	top:30%;
+	display:inline-block;
+	min-width: 10em;
+	width:12em;
+}
+
+
+.logo{
+position:fixed;
+left:4.8%;
+z-index:300;
+top:.9em;
+width:40%;
+}
+
+
+.navigation{
+	display: none;
+}
+
+
+.cross{
+	 position:fixed;
+    top:.2em;
+    right:5%;
+    font-size:4em;
+    z-index:400;
+}
+
+
+.box{
+	top:2em;
+	display:inline-block;
+	position:absolute;
+	left:0;
+	width:95%;
+	top:3em;
+}
+
+
+.items{
+	width:8.5em;
+	height: 16em;
+	border-width: 1.5px;
+	left:5%;
+	margin-left:.8vw;
+	margin-top:2em;
+
+}
+
+.redwine{
+	top:.6em;
+	left:.7em;
+	  height: .5em;
+  	width: .5em;
+}
+.whitewine{
+	top:.6em;
+	left:.7em;
+	  height: .5em;
+  	width: .5em;
+}
+.pricee{
+	top:.1em;
+	left:2em;
+	font-size: 1em;
+	letter-spacing: .05em;
+
+}
+
+h1{
+	position:absolute;
+	font-size:.7em;
+	left:0%;
+	width:95%;
+	top:78%;
+}
+h3{
+	top:24.2em;
+	position:relative;
+	font-size:.6em;
+	left:0;
+	width:95%;
+	padding-left: .8em;
+}
+
+h2{ 
+	font-size:1em;
+}
+
+.image{
+	padding-left: 28%;
+	padding-top: 18%;
+	width:43%;
+	position: absolute;
+}
+.filter2{
+	top:3.3em;
+	position:fixed;
+	left:0;
+	background-color: white;
+	z-index:200;
+		padding-left: 10%;
+	width:90%;
+	height:25em;
+	font-family: Raleway-Regular;
+	font-size: 1.3em;
+    line-height: 1.6em;
+    color:black;
+}
+.apply{
+	right:17%;
+    font-size:.8em;
+}
+.about-box{
+	top:8em;
+	width:75%;
+	max-width:40em;
+	left:10%;
+	font-size: .8em;
+	position: absolute;
+	font-family: Raleway-Regular;
+	line-height: 1.5em;
+}
+.parallax2, .parallax3, .parallax4 {
+  position: relative;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 48em;
+    background-color: rgb(160,30,30);
+
+}
+
+.dis-p-name{
+	font-family: Raleway-Bold;
+font-size: 32px;
+color: rgb(160,30,30);
+position:absolute;
+top:28%;
+left:15%;
+font-size:1.3em;
+width:40%;
+
+}
+.dis-alchol{
+font-family: Lato-Regular;
+color: #000000;
+position:relative;
+top:-1.6em;
+left:90%;
+width:10%;
+}
+.dis-icon{
+width:2.2em;
+}
+.dis-price{
+font-family: Lato;
+font-size: 32px;
+color: #000000;
+position:absolute;
+top:22%;
+left:15%;
+font-size:1.4em;
+width:30%;
+}
+.dis-tobuy{
+position: absolute;
+top:37em;
+left:24%;
+width:25%;
+background-color: white;
+border-width: 2px;
+border: solid;
+border-color: rgb(160,30,30);
+font-family:Raleway-Bold;
+font-size: 1em;
+color:rgb(160,30,30);
+z-index:200;
+text-align: center;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 2em;
+padding-right: 2em;
+text-decoration: none;
+}
+
+.dis-grape{
+	position:absolute;
+	top:50em;
+	left:12%;
+	width:80%;
+	height:100%;
+	letter-spacing: .1em;
+	font-size: .9em;
+}
+.backk{
+	font-size: 2em;
+	left:2%;
+	width:10%;
+	top:10%;
+
+}
+
+.dis-photo{
+	position:relative;
+	top:15em;
+	left:30%; 
+	width:17vw;
+	min-width: 8em;
+}
+
+.dis-grapenum{
+	position:absolute;
+	top:.8em;
+	left:3em;
+font-family: Lato-Light;
+font-size: 1.1em;
+color: #000000;
+line-height: 45px;
+}
+.dis-grapecompo{
+	position:absolute;
+	top:.8em;
+	left:30%;
+	font-family: Raleway-Regular;
+	font-size: 1.1em;
+	color: #000000;
+	line-height: 45px;
+	width:80%;
+}
+
+
+.dis-region-description{
+	position:relative;
+	top:-.7em;
+	left:-3em;
+	font-family: Raleway-Regular;
+	color: #000000;
+    width:70%;
+}
+
+.dis-pair-description{
+	position:relative;
+	top:-3.2em;
+	left:-10;
+	font-family: Raleway-Regular;
+	color: #000000;
+	width:100%;
+
+}
+.dis-notes{
+	position:relative;
+	font-family: Raleway-Regular;
+	color:black;
+	font-size: .9em;
+	top:2em;
+	width:100%;
+	left:0;
+	line-height: 1.6em;
+}
+
+
+}
