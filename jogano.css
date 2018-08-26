@@ -18,7 +18,7 @@
 [data-filter-view][data-filter-view~="loire"] [data-filter-region="loire"],
 [data-filter-view][data-filter-view~="light"] [data-filter-body="light"],
 [data-filter-view][data-filter-view~="medium"] [data-filter-body="medium"],
-[data-filter-view][data-filter-view~="high"] [data-filter-body="high"]
+[data-filter-view][data-filter-view~="full"] [data-filter-body="full"]
 {
     display:inline-block;
 }
