@@ -3,33 +3,27 @@
 
 
 
-.sidebar {
-  float: left;
-  text-transform: capitalize;
-}
-h3 {
-    margin-bottom: 0px;
-  }
-  ul {
-    margin-top: 3px;
-    margin-bottom: 0;
-  }
-  .sortoptions {
-    list-style: none;
-    padding-left: 0px;
-  }
+[data-filter-view]:not([data-filter-view=""]) [data-filter-key],
+[data-filter-view]:not([data-filter-view=""]) [data-filter-price],
+[data-filter-view]:not([data-filter-view=""]) [data-filter-region],
+[data-filter-view]:not([data-filter-view=""]) [data-filter-body]{
+    display: none;
 }
 
-.product {
-  max-width: 110px;
-  height: 70px;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
-  background-color: #eee;
+[data-filter-view] [data-filter-key="red"],
+[data-filter-view][data-filter-key="white"],
+[data-filter-view] [data-filter-price="p0"],
+[data-filter-view][data-filter-price="p350"],
+[data-filter-view][data-filter-region="burgendy"],
+[data-filter-view] [data-filter-region="bordeaux"],
+[data-filter-view] [data-filter-region="cahors"],
+[data-filter-view] [data-filter-region="loire"],
+[data-filter-view] [data-filter-body="light"],
+[data-filter-view][data-filter-body="medium"],
+[data-filter-view][data-filter-body="high"]
+{
+    display:inline-block;
 }
-
-
 
 
 .parallax1 {
