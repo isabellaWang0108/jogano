@@ -4,23 +4,21 @@
 
 
 [data-filter-view]:not([data-filter-view=""]) [data-filter-key],
-[data-filter-view]:not([data-filter-view=""]) [data-filter-price],
-[data-filter-view]:not([data-filter-view=""]) [data-filter-region],
-[data-filter-view]:not([data-filter-view=""]) [data-filter-body]{
+[data-filter-view]:not([data-filter-view=""]) [data-filter-location]{
     display: none;
 }
 
-[data-filter-view] [data-filter-key="red"],
-[data-filter-view][data-filter-key="white"],
-[data-filter-view] [data-filter-price="p0"],
-[data-filter-view][data-filter-price="p350"],
-[data-filter-view][data-filter-region="burgendy"],
-[data-filter-view] [data-filter-region="bordeaux"],
-[data-filter-view] [data-filter-region="cahors"],
-[data-filter-view] [data-filter-region="loire"],
-[data-filter-view] [data-filter-body="light"],
-[data-filter-view][data-filter-body="medium"],
-[data-filter-view][data-filter-body="high"]
+[data-filter-view][data-filter-view~="red"] [data-filter-key="red"],
+[data-filter-view][data-filter-view~="white"] [data-filter-key="white"],
+[data-filter-view][data-filter-view~="p0"] [data-filter-price="p0"],
+[data-filter-view][data-filter-view~="p350"] [data-filter-price="p350"],
+[data-filter-view][data-filter-view~="burgendy"] [data-filter-region="burgendy"],
+[data-filter-view][data-filter-view~="bordeaux"] [data-filter-region="bordeaux"],
+[data-filter-view][data-filter-view~="cahors"] [data-filter-region="cahors"],
+[data-filter-view][data-filter-view~="loire"] [data-filter-region="loire"],
+[data-filter-view][data-filter-view~="light"] [data-filter-body="light"],
+[data-filter-view][data-filter-view~="medium"] [data-filter-body="medium"],
+[data-filter-view][data-filter-view~="full"] [data-filter-body="full"]
 {
     display:inline-block;
 }
@@ -486,7 +484,6 @@ h2{ position: relative;
 	transform: scale(1.2);
 }
 
-//////product display
 
 .dis-price{
 font-family: Lato;
@@ -632,7 +629,10 @@ text-decoration: none;
 	color: white;
 }
 
-
+.introo{
+	position: relative;
+	padding-top: .6em;
+}
 @media screen and (max-width: 850px ){ 
 .parallax2, .parallax3, .parallax4 {
   position: relative;
@@ -880,12 +880,11 @@ h1{
 	top:78%;
 }
 h3{
-	top:25em;
 	position:relative;
 	font-size:.8em;
 	left:0;
 	width:95%;
-	padding-left: .8em;
+	padding-left: .7em;
 }
 .cross2{
 	 position:fixed;
@@ -1191,6 +1190,10 @@ width:40%;
 	letter-spacing: .05em;
 
 }
+.introo{
+	position: relative;
+	padding-top: .4em;
+}
 
 h1{
 	position:absolute;
@@ -1200,12 +1203,11 @@ h1{
 	top:78%;
 }
 h3{
-	top:24.2em;
 	position:relative;
-	font-size:.6em;
+	font-size:.5em;
 	left:0;
 	width:95%;
-	padding-left: .8em;
+	padding-left: .7em;
 }
 
 h2{ 
@@ -1218,13 +1220,14 @@ h2{
 	width:43%;
 	position: absolute;
 }
+
 .filter2{
 	top:3.3em;
 	position:fixed;
 	left:0;
 	background-color: white;
 	z-index:200;
-		padding-left: 10%;
+	padding-left: 5%;
 	width:90%;
 	height:25em;
 	font-family: Raleway-Regular;

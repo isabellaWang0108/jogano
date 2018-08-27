@@ -18,7 +18,7 @@
 [data-filter-view][data-filter-view~="loire"] [data-filter-region="loire"],
 [data-filter-view][data-filter-view~="light"] [data-filter-body="light"],
 [data-filter-view][data-filter-view~="medium"] [data-filter-body="medium"],
-[data-filter-view][data-filter-view~="high"] [data-filter-body="high"]
+[data-filter-view][data-filter-view~="full"] [data-filter-body="full"]
 {
     display:inline-block;
 }
@@ -43,7 +43,8 @@
 }
 .parallax5 {
   background: url('https://wangx733.github.io/jogano/deliver.jpg');
-  min-height: 400px;
+  height: 80vw;
+  max-height: 300px;
 }
 
 
@@ -68,12 +69,12 @@
 .parallax5 { 
 	position: relative;
     opacity: 1;
-    top:-3vw;
+    top:4vw;
     background-attachment: scroll;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
-    background-size:100%;
-
+    background-size: contain;
+    z-index: 300;
 }
 .relative{
 	position: relative;
@@ -484,7 +485,6 @@ h2{ position: relative;
 	transform: scale(1.2);
 }
 
-//////product display
 
 .dis-price{
 font-family: Lato;
@@ -630,7 +630,10 @@ text-decoration: none;
 	color: white;
 }
 
-
+.introo{
+	position: relative;
+	padding-top: .6em;
+}
 @media screen and (max-width: 850px ){ 
 .parallax2, .parallax3, .parallax4 {
   position: relative;
@@ -878,12 +881,11 @@ h1{
 	top:78%;
 }
 h3{
-	top:25em;
 	position:relative;
 	font-size:.8em;
 	left:0;
 	width:95%;
-	padding-left: .8em;
+	padding-left: .7em;
 }
 .cross2{
 	 position:fixed;
@@ -1189,6 +1191,10 @@ width:40%;
 	letter-spacing: .05em;
 
 }
+.introo{
+	position: relative;
+	padding-top: .4em;
+}
 
 h1{
 	position:absolute;
@@ -1198,12 +1204,11 @@ h1{
 	top:78%;
 }
 h3{
-	top:24.2em;
 	position:relative;
-	font-size:.6em;
+	font-size:.5em;
 	left:0;
 	width:95%;
-	padding-left: .8em;
+	padding-left: .7em;
 }
 
 h2{ 
@@ -1216,13 +1221,14 @@ h2{
 	width:43%;
 	position: absolute;
 }
+
 .filter2{
 	top:3.3em;
 	position:fixed;
 	left:0;
 	background-color: white;
 	z-index:200;
-		padding-left: 10%;
+	padding-left: 5%;
 	width:90%;
 	height:25em;
 	font-family: Raleway-Regular;
